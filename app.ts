@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import google from "googleapis"
+import docs from "@googleapis/docs"
 
 const app = express();
 
