@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "es6",
-      "module": "ESNext",
+      "module": "commonjs",
       "rootDir": "./",
       "typeRoots": ["types", "node_modules/@types"],
       "outDir": "./build",
