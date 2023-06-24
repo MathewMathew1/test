@@ -15,6 +15,7 @@ app.listen(PORT, () => {
 });
 
 const maxHeapSize = v8.getHeapStatistics().heap_size_limit;
+console.log(`Maximum heap size: ${Math.round(v8.getHeapStatistics().total_available_size / 1024 / 1024)} MB`)
 console.log(`Maximum heap size: ${Math.round(maxHeapSize / 1024 / 1024)} MB`);
 console.log(`Memory usage:`);
 console.log(`- Heap total: ${Math.round(used.heapTotal / 1024 / 1024)} MB`);
