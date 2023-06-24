@@ -2,7 +2,7 @@
 FROM node:current
 
 # Set the desired memory limit (e.g., 2GB)
-ENV NODE_OPTIONS="--max-old-space-size=2048"
+ENV NODE_OPTIONS="--max-old-space-size=4048"
 
 # Copy your application files to the container
 COPY . /app
